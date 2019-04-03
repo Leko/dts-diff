@@ -32,8 +32,7 @@ export async function summary(
   );
   const sorted = sortBy(
     diff,
-    ({ op, path }: Operation) =>
-      `${displayOrder.indexOf(op)}_${pointer.get(plainBeforePublicApis, path)}`
+    ({ op, path }: Operation) => `${displayOrder.indexOf(op)}_${path}`
   );
   sorted.map(({ op, path }: Operation) => {
     switch (op) {

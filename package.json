@@ -1,0 +1,42 @@
+{
+  "name": "dts-diff",
+  "version": "0.0.1",
+  "description": "WIP",
+  "main": "dist/index.js",
+  "typings": "dist/rollup.d.ts",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "Leko/typescript-interface-diff",
+  "keywords": [
+    "typescript",
+    "semver"
+  ],
+  "author": "Leko <leko.noor@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@microsoft/api-extractor": "^7.0.17",
+    "debug": "^4.1.1",
+    "find-up": "^3.0.0",
+    "json-pointer": "^0.6.0",
+    "mkdirp": "^0.5.1",
+    "normalize-package-data": "^2.5.0",
+    "rfc6902": "^3.0.1",
+    "yargs": "^13.0.0-candidate.0"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.2",
+    "@types/find-up": "^2.1.1",
+    "@types/mkdirp": "^0.5.2",
+    "@types/node": "^11.11.0",
+    "@types/normalize-package-data": "^2.4.0",
+    "@types/yargs": "^12.0.9",
+    "ts-jest": "^24.0.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  }
+}
